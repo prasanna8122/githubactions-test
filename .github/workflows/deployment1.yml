@@ -13,7 +13,6 @@ jobs:
   test:
     needs: lint
     runs-on: ubuntu-latest
-    uses: actions/checkout@v3
     steps:
       - name: Get code
         uses: actions/checkout@v3
